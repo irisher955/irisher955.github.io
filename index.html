@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grisher Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/769cfbbf7b.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
+    <link rel="icon" href="./Logo/logo.png" type="image/x-icon">
+
+</head>
+
+<body class="grid-container">
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img width="200" src="./Logo/logo.png"
+                        alt="Logo Grishercollection"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VESTIDOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PARTE SUPERIOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PARTE INFERIOR</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="section">
+            <span>Envío gratis a partir de $1299 MXN</span>
+        </div>
+
+        <div class="spring-collection-full-container">
+            <div class="spring-collection-description-and-button">
+                <div class="spring-container-description">
+                    <h1>PRE-COLECCIÓN DE PRIMAVERA</h1>
+                </div>
+                <div class="spring-collection-button">
+                    <a href="#">COMPRAR</a>
+                </div>
+            </div>
+            <div class="spring-collection-img">
+                <a href="#"><img src="ImagenesInicio/BannerPrimavera.jpg" alt="Colección Primavera"></a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="shop-by-category-full-container">
+            <div class="shop-by-category-title">
+                <h1>COMPRAR POR CATEGORÍA</h1>
+            </div>
+            <div class="shop-by-category-containers">
+                <div class="shop-by-category-clothes">
+                    <a href="#"><img src="./ImagenesInicio/VestidosCategoria1.jpg" alt="Categoría Vestidos"></a>
+                    <div class="category-subtitle-center">
+                        <a href="#">VESTIDOS</a>
+                    </div>
+                </div>
+                <div class="shop-by-category-clothes">
+                    <a href="#"><img src="./ImagenesInicio/InferiorCategoria.jpg" alt="Categoría Faldas"></a>
+                    <div class="category-subtitle-center">
+                        <a href="#">PARTE INFERIOR</a>
+                    </div>
+                </div>
+                <div class="shop-by-category-clothes">
+                    <a href="#"><img src="./ImagenesInicio/SuperiorCategoria.jpg" alt="Categoría Tops"></a>
+                    <div class="category-subtitle-center">
+                        <a href="#">PARTE SUPERIOR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="title-best-seller">
+            <h1>LO MÁS POPULAR</h1>
+        </div>
+
+        <div class="best-seller-full-container">
+            <div class="best-seller-img">
+                <img src="./TopsCatalogo/DenimJacket.jpg" alt="Denim Jacket">
+            </div>
+            <div class="info-best-seller">
+                <div class="clothing-tag">
+                    <h1>DENIM JACKET</h1>
+                </div>
+                <div class="best-seller-price">
+                    <span>$270.00 MXN</span>
+                </div>
+                <div class="container-details-product">
+                    <div class="form-group">
+                        <label for="size">Talla</label>
+                        <select name="size" id="size">
+                            <option disabled selected value="">Elige tu talla</option>
+                            <option value="extrasmallextra">XXS</option>
+                            <option value="extrasmall">XS</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="extralarge">XL</option>
+                            <option value="extralargeextra">XXL</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="colour">Color</label>
+                        <select name="colour" id="colour">
+                            <option disabled selected value="">Elige el color</option>
+                            <option value="blue">Azul</option>
+                            <option value="white">Blanco</option>
+                            <option value="black">Negro</option>
+                            <option value="beige">Beige</option>
+                        </select>
+                    </div>
+                    <button class="btn-clean">Limpiar</button>
+                </div>
+                <div class="container-add-cart">
+                    <div class="container-sub-and-quantity">
+                        <div class="container-quantity-sub">
+                            <p>Cantidad</p>
+                        </div>
+                        <div class="container-quantity">
+                            <input type="number" placeholder="1" value="1" min="1" max="10" class="input-quantity">
+                        </div>
+                    </div>
+                    <button class="btn-add-to-cart">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="rev-section">
+            <h2 class="title-rev">Nuestras Clientas Nos Aman</h2>
+            <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi ea libero modi. Eos,
+                corporis voluptatibus? Officiis voluptatibus, sint aliquam libero doloribus delectus dolorem obcaecati
+                cum magnam! Est, omnis deserunt!</p>
+
+            <div class="reviews">
+                <div class="review">
+                    <div class="head-review">
+                        <img src="./Reviews/ReviewOne.jpg" width="250" alt="Reseña de Cliente">
+                        <div class="body-review">
+                            <div class="name-review">Karina Crystal</div>
+                            <div class="place-review">Sonora</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="desc-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                                labore ea quas natus? Beatae corporis dolorum, suscipit repudiandae facilis ratione cum
+                                voluptate minima sint eum aut numquam alias eos eligendi.</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="review">
+                    <div class="head-review">
+                        <img src="./Reviews/ReviewTwo.jpg" width="250" alt="Reseña de Cliente">
+                        <div class="body-review">
+                            <div class="name-review">Abigail Ávila</div>
+                            <div class="place-review">Campeche</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="desc-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                                labore ea quas natus? Beatae corporis dolorum, suscipit repudiandae facilis ratione cum
+                                voluptate minima sint eum aut numquam alias eos eligendi.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <div class="head-review">
+                        <img src="./Reviews/ReviewThree.jpg" width="250" alt="Reseña de Cliente">
+                        <div class="body-review">
+                            <div class="name-review">Marisol Murillo</div>
+                            <div class="place-review">Michoacán</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="desc-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                                labore ea quas natus? Beatae corporis dolorum, suscipit repudiandae facilis ratione cum
+                                voluptate minima sint eum aut numquam alias eos eligendi.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="refound-about-us">
+
+            <div class="aboutUs">
+                <img src="./ImagenesInicio/AboutUs.jpg" width="250" alt="Sobre Nosotros">
+                <h1>Sobre Nosotros</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis id ipsam nostrum, ex ratione
+                        nihil mollitia praesentium quo quia nam. Magni, perspiciatis debitis! Hic aliquam itaque,
+                        voluptate reprehenderit nisi maiores!</p>
+                <div class="hide" id="hideText">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis id ipsam nostrum, ex ratione
+                        nihil mollitia praesentium quo quia nam. Magni, perspiciatis debitis! Hic aliquam itaque,
+                        voluptate reprehenderit nisi maiores!</p>
+                </div>
+
+                <button class="readMore_btn" id="hideText_btn">LEER MÁS</button>
+
+            </div>
+
+
+            <div class="refound">
+                <img src="./ImagenesInicio/Refound.jpg" width="250" alt="Reembolso">
+                <h1>Reembolsos</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis id ipsam nostrum, ex ratione
+                    nihil mollitia praesentium quo quia nam. Magni, perspiciatis debitis! Hic aliquam itaque,
+                    voluptate reprehenderit nisi maiores!</p>
+                <div class="hide2" id="hideText2">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis id ipsam nostrum, ex ratione
+                        nihil mollitia praesentium quo quia nam. Magni, perspiciatis debitis! Hic aliquam itaque,
+                        voluptate reprehenderit nisi maiores!</p>
+                 </div>
+
+                <button class="readMore_btn2" id="hideText_btn2">LEER MÁS</button>
+
+             </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="social-media">
+            <p>Síguenos en</p>
+            <a href="https://www.facebook.com" target="_blank"><img src="./Iconos/IconoFacebook.png"
+                    alt="Grishercollection en Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./Iconos/IconoInstagram.png"
+                    alt="Grishercollection en Instagram"></a>
+        </div>
+        <div class=footer-credits-container>
+            <ul>
+                <li>Desarrollado por Alba Iris</li>
+                <li>Fotos de <a href="https://unsplash.com/es/@majestical_jasmin" target="_blank">Jasmin Chew</a> y <a
+                        href="https://unsplash.com/es/@seleaphotography" target="_blank">Ioana Ye</a>
+                    </a>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
